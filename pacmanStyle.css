@@ -1,0 +1,223 @@
+body
+{
+    background-image: url("images/background.jpg");
+    background-size:cover;
+
+}
+#menu
+{
+    background:none;
+    font-weight:bold;
+	float:left;
+    margin-bottom: 1%;
+	width:50%;
+	opacity:0.7;
+}
+#menu a{
+    size: 16px;
+}
+
+#menu ul
+{
+    float:left;
+    height:100%;
+    width: 100px;
+
+}
+#menu li
+{
+    width: 30%;
+    height: 50%;
+	border-color:black;
+	background:black;
+	list-style-type:none;
+	display:inline-block;
+}
+
+#menu ul li:hover
+{
+    background: #F7CAC9;
+}
+#header
+{
+    height:5%;
+    background: linear-gradient(#009999,#00CC99);
+	width:100%;
+	padding-bottom:100px;
+}
+#header #names {
+    background:none;
+    margin: 0.5%;
+    float:right;
+    width:10%;
+	
+}
+#header img{
+    width:7%;
+    height: 50%;
+	
+}
+
+#header div label{
+    font-size: 20px;
+    color: #034F84;
+	color: white;
+	float:right;
+}
+#welcome
+{
+    height:100%;
+    background: linear-gradient(#009999,#00CC99);
+    text-align: center;
+}
+
+#welcome button
+{
+    margin: 0.5%;
+    width: 20%;
+    height: 15%;
+    font-family: myFirstFont;
+    font-size: 20px;
+    background-color: #9896A4;
+}
+#welcome label
+{
+    color: black;
+    font-size: 50px;
+    font-family: myFirstFont;
+}
+#welcome img
+{
+    margin: 0.5%;
+    height: 15%;
+    width: 15%;
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/PAC-FONT.TTF);
+}
+@font-face {
+    font-family: mySecFont;
+    src: url(fonts/emulogic.ttf);
+}
+
+{box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 10%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+#logIn
+{
+    background: linear-gradient(#009999,#00CC99);
+	margin:0% 10%;
+	padding-bottom:30%;
+	padding-left:30%;
+	padding-right:30%;
+    font-family: mySecFont;
+}
+#logIn input{
+	width:300px;
+}
+.buttonForm{
+	width:300px;
+}
+#register
+{
+    background: linear-gradient(#009999,#00CC99);
+	margin:0% 10%;
+	padding-bottom:30%;
+	padding-left:20%;
+    font-family: mySecFont;
+}
+#register label{
+    color:white;
+    font-style: oblique;
+}
+#register legend{
+    color:white;
+    font-style: oblique;
+}
+#scoreArea {
+	float:left;
+}
+#gameArea {
+	float:left;
+}
+#setupDiv
+{
+    background: linear-gradient(#009999,#00CC99);
+    margin:0% 10%;
+    padding-bottom:30%;
+    padding-left:20%;
+    font-family: mySecFont;
+}
+div{
+    background: linear-gradient(#009999,#00CC99);
+    color:white;
+    font-style: oblique;
+}
